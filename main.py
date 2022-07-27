@@ -7,7 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://www.nitech.ac.jp/kikin/wp-content/themes/original/img/home/mainvisual.jpg'
 
-im = imread(img_url)
+im = imread(img_url))
 
 st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
